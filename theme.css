@@ -1,0 +1,58 @@
+h1 {
+    color: #966fd6 ;
+}
+
+.infoHeader  {
+    color: #966fd6;
+}
+
+#addButton {
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+input:not(#addButton) {
+    background: #ecf0f3;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border: none;
+    outline: none;
+}
+
+#wrapper {
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+#resultTable {
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#resultTable thead tr {
+    background-color: #966fd6;
+    color: #ffffff;
+}
+
+#resultTable thead th {
+    background-color: #966fd6;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#resultTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#resultTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#resultTable tbody tr:last-of-type {
+    border-bottom: 2px solid #966fd6;
+}
+
